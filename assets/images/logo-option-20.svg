@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 130" role="img" aria-labelledby="title desc">
+  <title id="title">Logo option 20</title>
+  <desc id="desc">Option 15 variation with pointed roof ends and a slightly angled gutter line between EC and GC.</desc>
+  <path d="M31 51 80 21l30 19V21h13v35l6 4-1 3-13-7V30h-5v24L80 34 35 54Z" fill="#000000" />
+  <text x="80" y="79" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="900" letter-spacing="0" fill="#000000">EC</text>
+  <path d="M55 89h45l8 5" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="butt" stroke-linejoin="miter" />
+  <text x="80" y="119" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="900" letter-spacing="0" fill="#000000">GC</text>
+</svg>

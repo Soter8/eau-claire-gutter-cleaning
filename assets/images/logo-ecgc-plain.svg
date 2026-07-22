@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
+  <title id="title">Plain EC GC logo</title>
+  <desc id="desc">Simple black EC letters stacked over black GC letters.</desc>
+  <text x="60" y="52" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900" letter-spacing="0" fill="#000000">EC</text>
+  <text x="60" y="94" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900" letter-spacing="0" fill="#000000">GC</text>
+</svg>

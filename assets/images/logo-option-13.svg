@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 130" role="img" aria-labelledby="title desc">
+  <title id="title">Logo option 13</title>
+  <desc id="desc">Sharp roof and chimney with a gutter line, downspout, and small water drop between EC and GC.</desc>
+  <path d="M30 48 80 18l31 19V18h15v39" fill="none" stroke="#000000" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter" />
+  <text x="80" y="74" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="900" letter-spacing="0" fill="#000000">EC</text>
+  <path d="M52 83h50" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="square" />
+  <path d="M102 83v7" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="square" />
+  <path d="M102 93c3 4 4 6 4 8a4 4 0 0 1-8 0c0-2 1-4 4-8Z" fill="#000000" />
+  <text x="80" y="118" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="900" letter-spacing="0" fill="#000000">GC</text>
+</svg>

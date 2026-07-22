@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 130" role="img" aria-labelledby="title desc">
+  <title id="title">Logo option 17</title>
+  <desc id="desc">Option 15 variation with a lower roof tucked closer to the EC letters.</desc>
+  <path d="M38 55 80 29l28 17V29h13v33" fill="none" stroke="#000000" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter" />
+  <text x="80" y="82" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="900" letter-spacing="0" fill="#000000">EC</text>
+  <path d="M56 91h48" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="square" />
+  <text x="80" y="121" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="900" letter-spacing="0" fill="#000000">GC</text>
+</svg>

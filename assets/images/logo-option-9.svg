@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120" role="img" aria-labelledby="title desc">
+  <title id="title">Logo option 9</title>
+  <desc id="desc">Sharp roof, chimney, and clean gutter edge over stacked EC and GC letters.</desc>
+  <path d="M28 48 80 17l34 20V18h15v38" fill="none" stroke="#000000" stroke-width="6" stroke-linecap="square" stroke-linejoin="miter" />
+  <path d="M42 52h78l8 5" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter" />
+  <text x="80" y="80" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="900" letter-spacing="0" fill="#000000">EC</text>
+  <text x="80" y="108" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="900" letter-spacing="0" fill="#000000">GC</text>
+</svg>
