@@ -78,6 +78,9 @@
             <label for="email">Email</label>
             <input id="email" name="email" type="email" autocomplete="email" required />
 
+            <label for="phone">Phone number</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="Phone number" required />
+
             <label for="service-address">Service address</label>
             <input
               id="service-address"
@@ -224,6 +227,7 @@
           "",
           `Name: ${formData.get("name")}`,
           `Customer email: ${formData.get("email")}`,
+          `Phone number: ${formData.get("phone")}`,
           `Service address: ${formData.get("service_address")}`,
           `Selected home type: ${selectedHome}`,
           `Additional house details: ${additionalDetails}`
