@@ -6,7 +6,7 @@
     <title>Contact Eau Claire Gutter Cleaning | Schedule Gutter Cleaning</title>
     <meta
       name="description"
-      content="Contact Eau Claire Gutter Cleaning by email to schedule affordable gutter cleaning in Eau Claire, WI."
+      content="Contact Eau Claire Gutter Cleaning to schedule affordable gutter cleaning in Eau Claire, WI, with or without gutter guards."
     />
     <meta name="keywords" content="contact Eau Claire gutter cleaning, schedule gutter cleaning Eau Claire WI" />
     <meta name="robots" content="index, follow" />
@@ -14,19 +14,19 @@
     <meta property="og:title" content="Contact Eau Claire Gutter Cleaning" />
     <meta
       property="og:description"
-      content="Choose your home type and email Eau Claire Gutter Cleaning to schedule service."
+      content="Choose your home type, gutter guard option, and contact Eau Claire Gutter Cleaning to schedule service."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://eauclaireguttercleaning.com/contact.html" />
     <meta property="og:image" content="https://eauclaireguttercleaning.com/assets/images/hero-gutter-cleaning.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" href="assets/images/logo.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="assets/css/styles.css?v=20260721" />
+    <link rel="stylesheet" href="assets/css/styles.css?v=20260731" />
   </head>
   <body>
     <header class="site-header">
       <nav class="nav" aria-label="Main navigation">
-        <a class="brand" href="/">
+        <a class="brand" href="index.html">
           <img class="brand-logo" src="assets/images/logo.svg" alt="" />
           <span class="brand-text">Eau Claire Gutter Cleaning</span>
         </a>
@@ -36,7 +36,7 @@
           <span></span>
         </button>
         <div class="nav-links">
-          <a href="/">Home</a>
+          <a href="index.html">Home</a>
           <a href="pricing.html">Pricing</a>
           <a href="about.html">About</a>
           <a href="contact.html" aria-current="page">Contact</a>
@@ -50,7 +50,8 @@
           <p class="eyebrow">Contact us</p>
           <h1>Start a simple gutter cleaning request.</h1>
           <p>
-            Choose your home type, share your contact info, and email Eau Claire Gutter Cleaning to schedule service.
+            Choose your home type and gutter guard option, share your contact info, and email Eau Claire Gutter
+            Cleaning to schedule service.
           </p>
         </div>
       </section>
@@ -68,6 +69,10 @@
             <p>
               <strong>Payment:</strong> An invoice is sent after the service is complete. Card, cash, and Venmo are
               accepted.
+            </p>
+            <p>
+              <strong>Gutter guards:</strong> Select the guard option that matches your home so the form shows the
+              right service price.
             </p>
           </div>
 
@@ -97,8 +102,11 @@
                 <input
                   type="radio"
                   name="home_type"
-                  value="Small ranch - Up to 1,400 sq ft - $129"
+                  value="Small ranch - Up to 1,400 sq ft - $129 - No gutter guards"
                   data-plan="small-ranch"
+                  data-label="Small ranch - Up to 1,400 sq ft"
+                  data-base-price="$129"
+                  data-guard-price="$181"
                   required
                 />
                 <span>
@@ -111,8 +119,11 @@
                 <input
                   type="radio"
                   name="home_type"
-                  value="Average ranch - 1,401-2,000 sq ft - $149"
+                  value="Average ranch - 1,401-2,000 sq ft - $149 - No gutter guards"
                   data-plan="average-ranch"
+                  data-label="Average ranch - 1,401-2,000 sq ft"
+                  data-base-price="$149"
+                  data-guard-price="$209"
                 />
                 <span>
                   <strong>Average ranch</strong>
@@ -124,8 +135,11 @@
                 <input
                   type="radio"
                   name="home_type"
-                  value="Large ranch - 2,001-3,000 sq ft - $179"
+                  value="Large ranch - 2,001-3,000 sq ft - $179 - No gutter guards"
                   data-plan="large-ranch"
+                  data-label="Large ranch - 2,001-3,000 sq ft"
+                  data-base-price="$179"
+                  data-guard-price="$251"
                 />
                 <span>
                   <strong>Large ranch</strong>
@@ -137,8 +151,11 @@
                 <input
                   type="radio"
                   name="home_type"
-                  value="Average 2-story - Up to 2,500 sq ft - $199"
+                  value="Average 2-story - Up to 2,500 sq ft - $199 - No gutter guards"
                   data-plan="average-2-story"
+                  data-label="Average 2-story - Up to 2,500 sq ft"
+                  data-base-price="$199"
+                  data-guard-price="$279"
                 />
                 <span>
                   <strong>Average 2-story</strong>
@@ -150,8 +167,11 @@
                 <input
                   type="radio"
                   name="home_type"
-                  value="Large 2-story - 2,501-4,000 sq ft - $249"
+                  value="Large 2-story - 2,501-4,000 sq ft - $249 - No gutter guards"
                   data-plan="large-2-story"
+                  data-label="Large 2-story - 2,501-4,000 sq ft"
+                  data-base-price="$249"
+                  data-guard-price="$349"
                 />
                 <span>
                   <strong>Large 2-story</strong>
@@ -163,8 +183,11 @@
                 <input
                   type="radio"
                   name="home_type"
-                  value="Very large / complex - Over 4,000 sq ft or custom roofline - Starting at $299"
+                  value="Very large / complex - Over 4,000 sq ft or custom roofline - Starting at $299 - No gutter guards"
                   data-plan="very-large-complex"
+                  data-label="Very large / complex - Over 4,000 sq ft or custom roofline"
+                  data-base-price="Starting at $299"
+                  data-guard-price="Starting at $419"
                 />
                 <span>
                   <strong>Very large / complex</strong>
@@ -173,6 +196,24 @@
                 <b>Starting at $299</b>
               </label>
             </fieldset>
+
+            <fieldset class="guard-options">
+              <legend>Gutter guards</legend>
+              <div class="toggle-options">
+                <label class="toggle-option">
+                  <input type="radio" name="gutter_guards" value="No gutter guards" data-guard="no" checked required />
+                  <span>No gutter guards</span>
+                </label>
+                <label class="toggle-option">
+                  <input type="radio" name="gutter_guards" value="Has gutter guards" data-guard="yes" />
+                  <span>Has gutter guards</span>
+                </label>
+              </div>
+            </fieldset>
+            <p class="guard-help">
+              Not sure?
+              <a href="gutter-guards.html">See how to tell if you have gutter guards.</a>
+            </p>
 
             <label for="additional-details">Additional house details <span class="optional-text">(optional)</span></label>
             <textarea
@@ -201,10 +242,36 @@
       const submitButton = contactForm.querySelector('button[type="submit"]');
       const formStatus = document.querySelector("#form-status");
       const formspreeEndpoint = contactForm.dataset.formspreeEndpoint.trim();
-      const selectedHomeType = new URLSearchParams(window.location.search).get("homeType");
+      const pageParams = new URLSearchParams(window.location.search);
+      const selectedHomeType = pageParams.get("homeType");
+      const selectedGutterGuards = pageParams.get("gutterGuards");
+      const homeTypeInputs = document.querySelectorAll('input[name="home_type"]');
+      const gutterGuardInputs = document.querySelectorAll('input[name="gutter_guards"]');
+
+      if (selectedGutterGuards === "yes") {
+        document.querySelector('input[name="gutter_guards"][data-guard="yes"]').checked = true;
+      }
+
+      const updateContactPrices = () => {
+        const hasGuards = document.querySelector('input[name="gutter_guards"]:checked').dataset.guard === "yes";
+
+        homeTypeInputs.forEach((input) => {
+          const price = hasGuards ? input.dataset.guardPrice : input.dataset.basePrice;
+          const guardLabel = hasGuards ? "With gutter guards" : "No gutter guards";
+          input.value = `${input.dataset.label} - ${price} - ${guardLabel}`;
+          input.dataset.currentPrice = price;
+          input.closest(".home-option").querySelector("b").textContent = price;
+        });
+      };
+
+      gutterGuardInputs.forEach((input) => {
+        input.addEventListener("change", updateContactPrices);
+      });
+
+      updateContactPrices();
 
       if (selectedHomeType) {
-        document.querySelectorAll('input[name="home_type"]').forEach((input) => {
+        homeTypeInputs.forEach((input) => {
           if (input.dataset.plan === selectedHomeType) {
             input.checked = true;
           }
@@ -220,6 +287,9 @@
 
         const formData = new FormData(contactForm);
         const selectedHome = formData.get("home_type");
+        const selectedHomeInput = contactForm.querySelector('input[name="home_type"]:checked');
+        const selectedPrice = selectedHomeInput ? selectedHomeInput.dataset.currentPrice : "Not selected";
+        const selectedGuardOption = formData.get("gutter_guards");
         const additionalDetails = formData.get("additional_house_details") || "None provided";
         const subject = `Gutter cleaning request from ${formData.get("name")}`;
         const body = [
@@ -230,6 +300,8 @@
           `Phone number: ${formData.get("phone")}`,
           `Service address: ${formData.get("service_address")}`,
           `Selected home type: ${selectedHome}`,
+          `Gutter guards: ${selectedGuardOption}`,
+          `Service price: ${selectedPrice}`,
           `Additional house details: ${additionalDetails}`
         ].join("\n");
 
