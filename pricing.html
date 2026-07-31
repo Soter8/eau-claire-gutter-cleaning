@@ -6,22 +6,25 @@
     <title>Gutter Cleaning Pricing | Eau Claire Gutter Cleaning</title>
     <meta
       name="description"
-      content="View flat Eau Claire gutter cleaning prices by home type and square footage. Downspout cleaning and debris haul-away included."
+      content="View flat Eau Claire gutter cleaning prices by home type, square footage, and gutter guard option. Downspout cleaning and debris haul-away included."
     />
-    <meta name="keywords" content="Eau Claire gutter cleaning pricing, gutter cleaning prices Eau Claire WI" />
+    <meta
+      name="keywords"
+      content="Eau Claire gutter cleaning pricing, gutter cleaning prices Eau Claire WI, gutter guard cleaning Eau Claire"
+    />
     <meta name="robots" content="index, follow" />
     <link rel="canonical" href="https://eauclaireguttercleaning.com/pricing.html" />
     <meta property="og:title" content="Gutter Cleaning Pricing | Eau Claire Gutter Cleaning" />
     <meta
       property="og:description"
-      content="Flat gutter cleaning pricing in Eau Claire, WI by home type and square footage."
+      content="Flat gutter cleaning pricing in Eau Claire, WI by home type, square footage, and gutter guard option."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://eauclaireguttercleaning.com/pricing.html" />
     <meta property="og:image" content="https://eauclaireguttercleaning.com/assets/images/hero-gutter-cleaning.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" href="assets/images/logo.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="assets/css/styles.css?v=20260721" />
+    <link rel="stylesheet" href="assets/css/styles.css?v=20260731" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -72,10 +75,49 @@
           },
           {
             "@type": "Offer",
+            "name": "Small ranch gutter cleaning with gutter guards",
+            "price": "181",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "name": "Average ranch gutter cleaning with gutter guards",
+            "price": "209",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "name": "Large ranch gutter cleaning with gutter guards",
+            "price": "251",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "name": "Average 2-story gutter cleaning with gutter guards",
+            "price": "279",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
+            "name": "Large 2-story gutter cleaning with gutter guards",
+            "price": "349",
+            "priceCurrency": "USD"
+          },
+          {
+            "@type": "Offer",
             "name": "Very large or complex gutter cleaning",
             "priceSpecification": {
               "@type": "PriceSpecification",
               "minPrice": "299",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Very large or complex gutter cleaning with gutter guards",
+            "priceSpecification": {
+              "@type": "PriceSpecification",
+              "minPrice": "419",
               "priceCurrency": "USD"
             }
           }
@@ -86,7 +128,7 @@
   <body>
     <header class="site-header">
       <nav class="nav" aria-label="Main navigation">
-        <a class="brand" href="/">
+        <a class="brand" href="index.html">
           <img class="brand-logo" src="assets/images/logo.svg" alt="" />
           <span class="brand-text">Eau Claire Gutter Cleaning</span>
         </a>
@@ -96,7 +138,7 @@
           <span></span>
         </button>
         <div class="nav-links">
-          <a href="/">Home</a>
+          <a href="index.html">Home</a>
           <a href="pricing.html" aria-current="page">Pricing</a>
           <a href="about.html">About</a>
           <a href="contact.html">Contact</a>
@@ -111,48 +153,114 @@
           <h1>Simple rates for simple gutter cleaning.</h1>
           <p>
             Eau Claire gutter cleaning prices are based on home size and number of stories. Downspout cleaning and
-            debris haul-away are included with every service. Debris amount does not change your price. Pricing valid
-            through August 31, 2026. An invoice is sent after the service is complete.
+            debris haul-away are included with every service. Debris amount does not change your price. Choose the
+            gutter guard option that matches your home. Pricing valid through August 31, 2026. An invoice is sent
+            after the service is complete.
           </p>
         </div>
       </section>
 
       <section class="section">
         <div class="section-inner">
+          <div class="pricing-controls">
+            <div>
+              <p class="eyebrow">Gutter guard option</p>
+              <h2>Choose the setup that matches your home.</h2>
+              <p>
+                Select whether your gutters have guards and the pricing cards will show the right service price.
+              </p>
+              <a class="helper-link" href="gutter-guards.html">How do I know if I have gutter guards?</a>
+            </div>
+            <fieldset class="pricing-toggle">
+              <legend>Gutter guards</legend>
+              <div class="toggle-options">
+                <label class="toggle-option">
+                  <input type="radio" name="gutter_guard_pricing" value="no" checked />
+                  <span>No gutter guards</span>
+                </label>
+                <label class="toggle-option">
+                  <input type="radio" name="gutter_guard_pricing" value="yes" />
+                  <span>Has gutter guards</span>
+                </label>
+              </div>
+            </fieldset>
+          </div>
           <div class="pricing-grid">
-            <a class="price-card price-card-link" href="contact.html?homeType=small-ranch">
+            <a
+              class="price-card price-card-link"
+              href="contact.html?homeType=small-ranch"
+              data-home-type="small-ranch"
+              data-base-price="$129"
+              data-guard-price="$181"
+            >
               <p class="price-label">Small ranch</p>
-              <h2>$129</h2>
+              <h2 class="price-value">$129</h2>
+              <p class="guard-note">No gutter guards</p>
               <p class="price-meta">Up to 1,400 sq ft</p>
               <p class="price-action">Choose this home type</p>
             </a>
-            <a class="price-card price-card-link featured" href="contact.html?homeType=average-ranch">
+            <a
+              class="price-card price-card-link featured"
+              href="contact.html?homeType=average-ranch"
+              data-home-type="average-ranch"
+              data-base-price="$149"
+              data-guard-price="$209"
+            >
               <p class="price-label">Average ranch</p>
-              <h2>$149</h2>
+              <h2 class="price-value">$149</h2>
+              <p class="guard-note">No gutter guards</p>
               <p class="price-meta">1,401-2,000 sq ft</p>
               <p class="price-action">Choose this home type</p>
             </a>
-            <a class="price-card price-card-link" href="contact.html?homeType=large-ranch">
+            <a
+              class="price-card price-card-link"
+              href="contact.html?homeType=large-ranch"
+              data-home-type="large-ranch"
+              data-base-price="$179"
+              data-guard-price="$251"
+            >
               <p class="price-label">Large ranch</p>
-              <h2>$179</h2>
+              <h2 class="price-value">$179</h2>
+              <p class="guard-note">No gutter guards</p>
               <p class="price-meta">2,001-3,000 sq ft</p>
               <p class="price-action">Choose this home type</p>
             </a>
-            <a class="price-card price-card-link" href="contact.html?homeType=average-2-story">
+            <a
+              class="price-card price-card-link"
+              href="contact.html?homeType=average-2-story"
+              data-home-type="average-2-story"
+              data-base-price="$199"
+              data-guard-price="$279"
+            >
               <p class="price-label">Average 2-story</p>
-              <h2>$199</h2>
+              <h2 class="price-value">$199</h2>
+              <p class="guard-note">No gutter guards</p>
               <p class="price-meta">Up to 2,500 sq ft</p>
               <p class="price-action">Choose this home type</p>
             </a>
-            <a class="price-card price-card-link" href="contact.html?homeType=large-2-story">
+            <a
+              class="price-card price-card-link"
+              href="contact.html?homeType=large-2-story"
+              data-home-type="large-2-story"
+              data-base-price="$249"
+              data-guard-price="$349"
+            >
               <p class="price-label">Large 2-story</p>
-              <h2>$249</h2>
+              <h2 class="price-value">$249</h2>
+              <p class="guard-note">No gutter guards</p>
               <p class="price-meta">2,501-4,000 sq ft</p>
               <p class="price-action">Choose this home type</p>
             </a>
-            <a class="price-card price-card-link" href="contact.html?homeType=very-large-complex">
+            <a
+              class="price-card price-card-link"
+              href="contact.html?homeType=very-large-complex"
+              data-home-type="very-large-complex"
+              data-base-price="Starting at $299"
+              data-guard-price="Starting at $419"
+            >
               <p class="price-label">Very large / complex</p>
-              <h2 class="long-price">Starting at $299</h2>
+              <h2 class="price-value long-price">Starting at $299</h2>
+              <p class="guard-note">No gutter guards</p>
               <p class="price-meta">Over 4,000 sq ft or custom roofline</p>
               <p class="price-action">Choose this home type</p>
             </a>
@@ -191,6 +299,11 @@
                   <td>Removed debris is taken away after the cleaning.</td>
                 </tr>
                 <tr>
+                  <td>Gutter guard cleaning</td>
+                  <td>Shown above</td>
+                  <td>Guards are helpful, but they add time because covers or screens may need to be removed and put back on.</td>
+                </tr>
+                <tr>
                   <td>Payment after service</td>
                   <td>Invoice sent after cleaning</td>
                   <td>Pay by card, cash, or Venmo after the service is complete.</td>
@@ -207,8 +320,8 @@
             <p class="eyebrow">Simple process</p>
             <h2>Send a few details and get the right flat price.</h2>
             <p>
-              Address, home type, approximate square footage, and number of stories are enough to get scheduled. Payment
-              is handled after the cleaning by invoice, card, cash, or Venmo.
+              Address, home type, approximate square footage, number of stories, and gutter guard option are enough to
+              get scheduled. Payment is handled after the cleaning by invoice, card, cash, or Venmo.
             </p>
           </div>
           <a class="button button-primary" href="contact.html">Contact us</a>
@@ -224,6 +337,37 @@
     </footer>
 
     <script>
+      const pricingCards = document.querySelectorAll(".price-card-link");
+      const gutterGuardPricingInputs = document.querySelectorAll('input[name="gutter_guard_pricing"]');
+      const pricingParams = new URLSearchParams(window.location.search);
+      const selectedGuardPricing = pricingParams.get("gutterGuards");
+
+      if (selectedGuardPricing === "yes") {
+        document.querySelector('input[name="gutter_guard_pricing"][value="yes"]').checked = true;
+      }
+
+      const updatePricingCards = () => {
+        const hasGuards = document.querySelector('input[name="gutter_guard_pricing"]:checked').value === "yes";
+
+        pricingCards.forEach((card) => {
+          const price = hasGuards ? card.dataset.guardPrice : card.dataset.basePrice;
+          const params = new URLSearchParams({
+            homeType: card.dataset.homeType,
+            gutterGuards: hasGuards ? "yes" : "no"
+          });
+
+          card.querySelector(".price-value").textContent = price;
+          card.querySelector(".guard-note").textContent = hasGuards ? "With gutter guards" : "No gutter guards";
+          card.href = `contact.html?${params.toString()}`;
+        });
+      };
+
+      gutterGuardPricingInputs.forEach((input) => {
+        input.addEventListener("change", updatePricingCards);
+      });
+
+      updatePricingCards();
+
       const navToggle = document.querySelector(".nav-toggle");
       const navLinks = document.querySelector(".nav-links");
 
