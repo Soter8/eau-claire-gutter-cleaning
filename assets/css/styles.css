@@ -840,26 +840,57 @@ img {
   display: grid;
   grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr);
   gap: 28px;
-  align-items: center;
+  align-items: start;
 }
 
 .guard-graphic {
-  padding: 18px;
+  padding: 14px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--surface);
   box-shadow: var(--shadow);
 }
 
-.guard-graphic svg {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .guard-copy {
   display: grid;
   gap: 16px;
+}
+
+.guard-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.guard-photo-card {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper);
+}
+
+.guard-photo-card img {
+  width: 100%;
+  height: clamp(220px, 24vw, 300px);
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.guard-photo-card:first-child img {
+  object-position: center 72%;
+}
+
+.guard-photo-card:nth-child(2) img {
+  object-position: center 56%;
+}
+
+.guard-photo-card figcaption {
+  padding: 12px 10px;
+  color: var(--brand-dark);
+  font-weight: 900;
+  line-height: 1.2;
+  text-align: center;
 }
 
 .guard-copy h2,
@@ -1034,6 +1065,10 @@ img {
   .cta-band,
   .pricing-controls {
     padding: 22px;
+  }
+
+  .guard-photo-grid {
+    grid-template-columns: 1fr;
   }
 
   .home-option {
